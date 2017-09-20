@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A8968FE9ACB21FD271F72DD /* libPods-BaseComponent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F32E8008B12E50D40D1E74 /* libPods-BaseComponent.a */; };
 		F88E7DAB1F725C8B00280B0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F88E7DAA1F725C8B00280B0F /* AppDelegate.m */; };
 		F88E7DAE1F725C8B00280B0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F88E7DAD1F725C8B00280B0F /* ViewController.m */; };
 		F88E7DB11F725C8B00280B0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88E7DAF1F725C8B00280B0F /* Main.storyboard */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		621E3CF6DE92ACB2099638AB /* Pods-BaseComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseComponent.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseComponent/Pods-BaseComponent.release.xcconfig"; sourceTree = "<group>"; };
+		A8F32E8008B12E50D40D1E74 /* libPods-BaseComponent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseComponent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E5E25ACAE4D93A9F36D77A /* Pods-BaseComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseComponent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseComponent/Pods-BaseComponent.debug.xcconfig"; sourceTree = "<group>"; };
 		F88E7DA61F725C8B00280B0F /* BaseComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88E7DA91F725C8B00280B0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F88E7DAA1F725C8B00280B0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,23 @@
 		F88E7DC91F725C8B00280B0F /* BaseComponentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseComponentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88E7DCD1F725C8B00280B0F /* BaseComponentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseComponentUITests.m; sourceTree = "<group>"; };
 		F88E7DCF1F725C8B00280B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F88E7DDD1F725DA200280B0F /* AIFNetworkUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIFNetworkUtil.h; sourceTree = "<group>"; };
+		F88E7DDE1F725DA200280B0F /* AIFNetworkUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIFNetworkUtil.m; sourceTree = "<group>"; };
+		F88E7DE01F725DA200280B0F /* DebugURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebugURL.h; sourceTree = "<group>"; };
+		F88E7DE11F725DA200280B0F /* DebugURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebugURL.m; sourceTree = "<group>"; };
+		F88E7DE31F725DA200280B0F /* DebugViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebugViewController.h; sourceTree = "<group>"; };
+		F88E7DE41F725DA200280B0F /* DebugViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebugViewController.m; sourceTree = "<group>"; };
+		F88E7DE51F725DA200280B0F /* DebugViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DebugViewController.xib; sourceTree = "<group>"; };
+		F88E7DE61F725DA200280B0F /* NetEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetEngine.h; sourceTree = "<group>"; };
+		F88E7DE71F725DA200280B0F /* NetEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetEngine.m; sourceTree = "<group>"; };
+		F88E7DE81F725DA200280B0F /* NetRequestGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetRequestGroup.h; sourceTree = "<group>"; };
+		F88E7DE91F725DA200280B0F /* NetRequestGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetRequestGroup.m; sourceTree = "<group>"; };
+		F88E7DEA1F725DA200280B0F /* OBikeHttpURLs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OBikeHttpURLs.h; sourceTree = "<group>"; };
+		F88E7DEB1F725DA200280B0F /* OBikeNetBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OBikeNetBase.h; sourceTree = "<group>"; };
+		F88E7DEC1F725DA200280B0F /* OBikeNetBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBikeNetBase.m; sourceTree = "<group>"; };
+		F88E7DEE1F725DA200280B0F /* OBikeSevers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OBikeSevers.h; sourceTree = "<group>"; };
+		F88E7DEF1F725DA200280B0F /* OBikeSevers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBikeSevers.m; sourceTree = "<group>"; };
+		F88E7DF01F725DA200280B0F /* OBikeSeversHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OBikeSeversHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A8968FE9ACB21FD271F72DD /* libPods-BaseComponent.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +100,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AA9E5F9FFE81CF6C1C95CB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5E5E25ACAE4D93A9F36D77A /* Pods-BaseComponent.debug.xcconfig */,
+				621E3CF6DE92ACB2099638AB /* Pods-BaseComponent.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0E6D88B69C20C16D0EFBDB17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8F32E8008B12E50D40D1E74 /* libPods-BaseComponent.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F88E7D9D1F725C8B00280B0F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +124,8 @@
 				F88E7DC11F725C8B00280B0F /* BaseComponentTests */,
 				F88E7DCC1F725C8B00280B0F /* BaseComponentUITests */,
 				F88E7DA71F725C8B00280B0F /* Products */,
+				0AA9E5F9FFE81CF6C1C95CB5 /* Pods */,
+				0E6D88B69C20C16D0EFBDB17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +142,7 @@
 		F88E7DA81F725C8B00280B0F /* BaseComponent */ = {
 			isa = PBXGroup;
 			children = (
+				F88E7DDB1F725D9700280B0F /* BaseComponent */,
 				F88E7DA91F725C8B00280B0F /* AppDelegate.h */,
 				F88E7DAA1F725C8B00280B0F /* AppDelegate.m */,
 				F88E7DAC1F725C8B00280B0F /* ViewController.h */,
@@ -132,6 +174,62 @@
 			path = BaseComponentUITests;
 			sourceTree = "<group>";
 		};
+		F88E7DDB1F725D9700280B0F /* BaseComponent */ = {
+			isa = PBXGroup;
+			children = (
+				F88E7DDC1F725DA200280B0F /* NetWork */,
+				F88E7DED1F725DA200280B0F /* Severs */,
+			);
+			path = BaseComponent;
+			sourceTree = "<group>";
+		};
+		F88E7DDC1F725DA200280B0F /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				F88E7DDD1F725DA200280B0F /* AIFNetworkUtil.h */,
+				F88E7DDE1F725DA200280B0F /* AIFNetworkUtil.m */,
+				F88E7DDF1F725DA200280B0F /* DebugURL */,
+				F88E7DE61F725DA200280B0F /* NetEngine.h */,
+				F88E7DE71F725DA200280B0F /* NetEngine.m */,
+				F88E7DE81F725DA200280B0F /* NetRequestGroup.h */,
+				F88E7DE91F725DA200280B0F /* NetRequestGroup.m */,
+				F88E7DEA1F725DA200280B0F /* OBikeHttpURLs.h */,
+				F88E7DEB1F725DA200280B0F /* OBikeNetBase.h */,
+				F88E7DEC1F725DA200280B0F /* OBikeNetBase.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		F88E7DDF1F725DA200280B0F /* DebugURL */ = {
+			isa = PBXGroup;
+			children = (
+				F88E7DE01F725DA200280B0F /* DebugURL.h */,
+				F88E7DE11F725DA200280B0F /* DebugURL.m */,
+				F88E7DE21F725DA200280B0F /* PKWDebugViewController */,
+			);
+			path = DebugURL;
+			sourceTree = "<group>";
+		};
+		F88E7DE21F725DA200280B0F /* PKWDebugViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F88E7DE31F725DA200280B0F /* DebugViewController.h */,
+				F88E7DE41F725DA200280B0F /* DebugViewController.m */,
+				F88E7DE51F725DA200280B0F /* DebugViewController.xib */,
+			);
+			path = PKWDebugViewController;
+			sourceTree = "<group>";
+		};
+		F88E7DED1F725DA200280B0F /* Severs */ = {
+			isa = PBXGroup;
+			children = (
+				F88E7DEE1F725DA200280B0F /* OBikeSevers.h */,
+				F88E7DEF1F725DA200280B0F /* OBikeSevers.m */,
+				F88E7DF01F725DA200280B0F /* OBikeSeversHeader.h */,
+			);
+			path = Severs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F88E7DD21F725C8B00280B0F /* Build configuration list for PBXNativeTarget "BaseComponent" */;
 			buildPhases = (
+				4C085247B3F91E0A6259FEF7 /* [CP] Check Pods Manifest.lock */,
 				F88E7DA21F725C8B00280B0F /* Sources */,
 				F88E7DA31F725C8B00280B0F /* Frameworks */,
 				F88E7DA41F725C8B00280B0F /* Resources */,
+				8B3BF3CFA13F823B5656DE26 /* [CP] Embed Pods Frameworks */,
+				D39225520856C85892D355B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +360,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C085247B3F91E0A6259FEF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B3BF3CFA13F823B5656DE26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaseComponent/Pods-BaseComponent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D39225520856C85892D355B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaseComponent/Pods-BaseComponent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F88E7DA21F725C8B00280B0F /* Sources */ = {
@@ -428,6 +577,7 @@
 		};
 		F88E7DD31F725C8B00280B0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E5E25ACAE4D93A9F36D77A /* Pods-BaseComponent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +591,7 @@
 		};
 		F88E7DD41F725C8B00280B0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 621E3CF6DE92ACB2099638AB /* Pods-BaseComponent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
