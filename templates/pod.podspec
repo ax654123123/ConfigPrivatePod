@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "BaseComponent"
+  s.name         = "__ProjectName__"
   s.version      = "1"
-  s.summary      = "BaseComponent."
+  s.summary      = "__ProjectName__."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    this is BaseComponent
+                    this is __ProjectName__
                    DESC
 
-  s.homepage     = "https://github.com/ax654123123/BaseComponent"
+  s.homepage     = "__HomePage__"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/ax654123123/BaseComponent.git", :tag => s.version.to_s }
+  s.source       = { :git => "__HTTPSRepo__", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "BaseComponent/BaseComponent/**/*.{h,m}"
+  s.source_files  = "__ProjectName__/__ProjectName__/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -136,6 +136,5 @@ Pod::Spec.new do |s|
   # s.dependency "BLNetworking"
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"
-    s.dependency "AFNetworking"
 
 end
